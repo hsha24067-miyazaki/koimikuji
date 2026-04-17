@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color:rgb(79, 62, 235);
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(114, 122, 235);
+    color:aliceblue
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+}
