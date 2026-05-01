@@ -3,6 +3,7 @@ const fortunes =[
     "中吉　少し勇気を出すと良いことが起きる",
     "小吉　今日はゆっくり過ごそう",
     "凶　無理せず慎重に行動しよう",
+    "大凶　今すぐ寝よう^_^"
 ];
 
 const button =document.getElementById("omikuji-bt");

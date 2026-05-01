@@ -1,17 +1,17 @@
 body {
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(66, 209, 228);
     font-family: Arial, sans-serif;
 }
 
 h1{
-    color:rgb(79, 62, 235);
+    color:rgb(56, 58, 212);
 }
 
 button {
     padding: 10px;
     font-size: 18px;
-    background-color: rgb(114, 122, 235);
+    background-color: rgb(64, 64, 236);
     color:aliceblue
 }
 
