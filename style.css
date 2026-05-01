@@ -12,7 +12,10 @@ button {
     padding: 10px;
     font-size: 18px;
     background-color: rgb(64, 64, 236);
-    color:aliceblue
+    color:aliceblue;
+    border : none;
+    border-radius:5px;
+    cursor:pointer;
 }
 
 .result {
