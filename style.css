@@ -9,16 +9,17 @@ h1{
 }
 
 button {
-    padding: 10px;
-    font-size: 18px;
+    width: 300px;
+    padding: 20px;
+    font-size: 28px;
     background-color: rgb(64, 64, 236);
     color:aliceblue;
     border : none;
-    border-radius:5px;
+    border-radius:10px;
     cursor:pointer;
 }
 
 .result {
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 40px;
 }

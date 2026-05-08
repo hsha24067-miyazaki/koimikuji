@@ -9,6 +9,9 @@ const fortunes =[
 const button =document.getElementById("omikuji-bt");
 const result =document.getElementById("result");
 const advice =document.getElementById("advice");
+const omikujiImg = document.getElementById("omikuji-img");
+
+
 
 button.addEventListener("click",function () {
     const randomNumber=Math.floor(Math.random()*fortunes.length);
@@ -18,23 +21,19 @@ button.addEventListener("click",function () {
 
     if (resultText.includes("大吉")) {
         result.style.color = "blue";
-       advice.textContent= "今すぐに行動したほうがヨイ"
+        advice.textContent= "今すぐに行動したほうがヨイ";
     }else if (resultText.includes("中吉")) {
         result.style.color = "green";
-
-    }else if (resultText.includes("小吉")) {
+        advice.textContent=  "いえーい";
+    }else if   (resultText.includes("小吉")) {
         result.style.color = "orange";
-         
-    }else if (resultText.includes("凶")) {
-        result.style.color = "yellow";
-
+        advice.textContent= "いえーーい";
     }else if (resultText.includes("大凶")) {
-        result.style.color = "rainbow";
-      advice.textContent="おやすみ"
-            
-            
-            
-
-    }
+        result.style.color = "yellow";
+        advice.textContent="おやすみ";
+    }else if (resultText.includes("凶")) {
+        result.style.color = "red";
+        advice.textContent="寝るといいよ";
+    }    
 
 });
